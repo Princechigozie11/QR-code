@@ -1,0 +1,88 @@
+/* FONT STYLE */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap");
+/* END OF FONT STYLE */
+
+/* UNIVERSAL AND BODY STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  display: grid;
+  place-items: center;
+  background-color: hsl(212, 45%, 89%);
+}
+/* UNIVERSAL STYLE END */
+
+/* FIRST CONTAINER STYLING*/
+.container {
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 3px;
+  height: 50%;
+  width: 50%;
+}
+/* END OF CONTAINER STYLE */
+
+/* IMAGE STYLE */
+.img img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 9%;
+}
+/* END OF STYLE */
+
+/* TEXT STYLE H1 AND P TAG */
+h1 {
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
+}
+.text {
+  margin: 2rem;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}
+/* END OF TEXT STYLE */
+
+/* STYLE FOR MOBILE DEVICE */
+@media screen and (max-width: 480px) {
+  section {
+    background-color: hsl(212, 45%, 89%);
+    padding: 35px;
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    padding: 3px;
+    height: 100%;
+    width: 100%;
+  }
+  .img img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 9%;
+  }
+  h1 {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+  }
+  .text {
+    margin: 2rem;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+  }
+}
+/* END OF STYLE MOBILE DEVICE */
